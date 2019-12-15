@@ -149,6 +149,7 @@ hr {
 }
 .container {
 	padding: 0px;
+	
 }
 
 .tag-list-title {
@@ -364,7 +365,12 @@ footer {
 	.container{
 		display: -webkit-flex;
 		display: flex;
-		min-width:940px;
+		position: relative;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    max-width: calc(1200px + var(--gap) * 2);
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--gap);
 	}
 
 	.main-content{
