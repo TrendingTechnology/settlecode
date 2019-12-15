@@ -161,7 +161,7 @@ background-color: #d6e2ee;
   line-height: 80px;
 }
 .container {
-	padding: 0px;
+	padding: 20px;
 	
 }
 
@@ -366,7 +366,7 @@ footer {
 	}
 
 	aside.sidebar {
-		min-width: 220px;
+		min-width: 280px;
 		max-width: 28%;
 	}
 }
