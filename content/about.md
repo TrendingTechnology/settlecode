@@ -1,21 +1,8 @@
 +++
-date = "2015-10-28T21:21:25+09:00"
-draft = false
+date = 2015-10-28T12:21:25Z
 title = "About"
 
 +++
+Settle Code is a blog focus on innovation in technology, education, creativity, and design. Settle Code inspires readers to learn and expand their knowledge.
 
-黒歴史は塗り替えてなんぼデスッ！！
-
-## about this blog
-
-日記や技術的なことなど、まとまった文章を書くために使用する予定です。
-
-## about me
-
-プログラミングやゲームをします。
-
-[twitter](https://twitter.com/__tatamo__)やってます
-
-これまで作ったものなどはこちらにまとめています: [Tatamo's works](http://tatamo.81.la/)
-
+Launched in September 2019 by Frank, Settle Code was founded to help new Software Developers to gain knowledge in the field of Software and Web Development also to improve the knowledge of experienced Software Developers, in the field of programming and the way of thinking.
