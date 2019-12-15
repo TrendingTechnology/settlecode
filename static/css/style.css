@@ -43,7 +43,7 @@ header .site-subtitle {
 }
 
 .container {
-	padding: 16px;
+	padding: 0px;
 }
 
 .tag-list-title {
@@ -74,8 +74,7 @@ header .site-subtitle {
 
 @media (max-width:650px){.post-content img { max-width: 96%;margin: auto;}post-footer{padding: 0vw 0vw 4vw 4vw ;}.post-card-image {    display: block;    padding-top: 50%;    width: 100%;    max-width: 100%;    max-height: 100%;    height: 100%;    position: relative;    transition-duration: .3s;    background-position: 50%;    background-size: cover;}.post-header {padding: 3vw 4vw 0;margin-bottom: 30px;}.post-content {padding: 3vw 6vw 0;}.main{padding: 0;}.post-entry {width: auto; margin: 15px;display: block;}.post-full-image img{height:auto;margin-bottom:3vw;border-radius: 0;min-width:0;display:block;max-width:100%;height:auto;}}
 article.post-list-article {
-	padding-top: 10px;
-	padding-bottom: 10px;
+
 	border-radius: 3px;
     width: 100%;
     display: flex;
@@ -87,9 +86,6 @@ article.post-list-article {
     transition: all .5s ease;
 }
 
-article.post-list-article + article.post-list-article {
-	border-top: 1px dashed #AAA;
-}
 
 article.post-list-article + nav.pagination {
 	border-top: 1px dashed #AAA;
@@ -182,15 +178,21 @@ nav.pagination {
 }
 
 .sidebar-content {
-	padding: 8px 12px;
-	background-color: #DDD;
+    border-radius: 3px;
+    width: 100%;
+    /* display: flex; */
+    overflow: hidden;
+    background: #fff 50%;
+    background-size: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 0 1px rgba(0,0,0,.2), 0 2px 4px rgba(0,0,0,.09);
+    transition: all .5s ease;
 }
 
 .sidebar-content h2.panel-title {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding: 2px 8px;
-	border-bottom: 1px dashed #AAA;
 	border-left: 10px solid #AAA;
 }
 
@@ -206,7 +208,7 @@ nav.pagination {
 body { 
 	margin: 0 auto;
 	padding: 0px 8px;
-	max-width: 1400px;
+	max-width: 1200px;
 }
 
 header {
@@ -262,7 +264,7 @@ footer {
 
 	aside.sidebar {
 		min-width: 220px;
-		max-width: 30%;
+		max-width: 28%;
 	}
 }
 
