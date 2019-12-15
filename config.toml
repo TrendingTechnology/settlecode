@@ -1,4 +1,4 @@
-baseurl = "https://boring-murdock-dbf5c8.netlify.com/"
+baseurl = "https://settlecode.com/"
 languageCode = "en"
 title = "Settle Code"
 canonifyurls = true
@@ -6,10 +6,10 @@ canonifyurls = true
 [permalinks]
 post = "/:year/:month/:day/:filename/"
 [params]
-author = "Tatamo"
+author = "settlecode"
 subtitle = "Settle Code"
-description = "Tatamo's weblog"
-twitter_url = "https://twitter.com/__tatamo__"
-github_url = "https://github.com/tatamo"
+description = "settle's weblog"
+twitter_url = "https://twitter.com/settlecode"
+github_url = "https://github.com/settlecode"
 copyright_since = "2019"
 copyright_latest = "2020"
