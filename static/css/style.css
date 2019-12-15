@@ -10,7 +10,19 @@ html {
   --secondary: rgba(0, 0, 0, 0.56);
   --tertiary: rgba(0, 0, 0, 0.16);
 }
-
+.navbar-item {align-items:center; display:-webkit-box; display:-ms-flexbox;display:flex; padding-left: 10px;}
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
 table {
   border-collapse: collapse;
   border-spacing: 0;
