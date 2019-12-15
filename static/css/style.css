@@ -99,11 +99,11 @@ background-color: #d6e2ee;
 }
 
 .tag-list-title {
-	font-size: 2.25em;
+	font-size: 2.1em;
 	padding-bottom: 8px;
 	margin-top: 0px;
-	margin-bottom: 0px;
-	border-bottom: 1px dashed #AAA;
+margin-bottom: 15px;
+    border-bottom: 1px solid #efefef;
 }
 
 .tag-list-title a {
