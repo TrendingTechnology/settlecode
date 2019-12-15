@@ -29,3 +29,4 @@ fields:
   label: featuredimage
 pages:
 - content/post/guide-to-javascript-destructuring-in-es6.md
+- content/post/how-to-automatically-clear-cloudflare-cache-after-deploying-a-netlify-site.md
