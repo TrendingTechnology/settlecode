@@ -3,7 +3,30 @@
     </div>
    <footer>
         <p>Copyright (c){{ if .Site.Params.copyright_since }}{{ if not ( eq .Site.Params.copyright_since .Site.Params.copyright_latest ) }} {{ .Site.Params.copyright_since }} - {{ .Site.Params.copyright_latest }}{{ else }} {{ .Site.Params.copyright_since }}{{ end }}{{ end }} <a href="about/">{{ .Site.Params.author }}</a>.</p>
-        <p>Powered by <a href="http://gohugo.io" target="_blank">Hugo</a></p>
     </footer>
+<script src="https://booksawesome.com/js/instantclick.min.js" data-no-instant></script>
+<script data-no-instant>InstantClick.init();</script>
+<script data-no-instant>
+  let body;
+  function menuToggleListener() {
+    body.classList.toggle('blur');
+  }
+  function setMenuToggleListener() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    if (!menuToggle) return;
+    body = document.querySelector('body');
+    menuToggle.addEventListener('click', menuToggleListener);
+  }
+
+  hljs.initHighlightingOnLoad();
+  setMenuToggleListener();
+
+  InstantClick.on('change', function () {
+    document.querySelectorAll('pre code').forEach((block) => {
+      hljs.highlightBlock(block);
+    });
+    setMenuToggleListener();
+  });
+</script>
 </body>
 </html>
