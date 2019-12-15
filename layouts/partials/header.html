@@ -51,16 +51,29 @@
     </script>
 </head>
 <body>
-    <header>
-        <h1 class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-        <h2 class="site-subtitle">{{ .Site.Params.subtitle }}</h2>
+   <header class="header">
+      <div class="wrap">
+        <a class="navbar-item" href="{{ "" | absURL }}"><img src="/img/apple-touch-icon.png" alt="{{ .Site.Title }}" width="38" height="38"></a>
+        {{ if .IsHome }}
+        <h1 class="logo"><a href="{{ "" | absURL }}">{{ .Site.Title }}</a></h1>
+        {{ else }}
+        <p class="logo"><a href="{{ "" | absURL }}">{{ .Site.Title }}</a></p>
+        {{ end }}
+        {{ if .Site.Menus.main }}
+        <button class="menu-toggle" type="button"></button>
+        {{ end }}
+      </div>
     </header>
-    <nav class="head-nav">
-        <ul>
-        <li><a href="about/">about</a></li>
-        <li><a href="{{ .Site.Params.twitter_url }}" target="_blank">twitter</a></li>
-        <li><a href="{{ .Site.Params.github_url }}" target="_blank">github</a></li>
-        </ul>
+    {{ if .Site.Menus.main }}
+    <nav class="nav">
+      <ul class="menu">
+        {{ range .Site.Menus.main }}
+        <li>
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+      </ul>
     </nav>
+    {{ end }}
     <div class="container">
     <div class="main-content">
