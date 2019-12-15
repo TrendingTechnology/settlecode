@@ -53,9 +53,9 @@
 <body>
    <header class="header">
       <div class="wrap">
-        <a class="navbar-item" href="{{ "" | absURL }}"><img src="/img/apple-touch-icon.png" alt="{{ .Site.Title }}" width="38" height="38"></a>
+        <a class="navbar-item" href="{{ "" | absURL }}"><img src="/images/favicon.png" alt="{{ .Site.Title }}" width="38" height="38"></a>
         {{ if .IsHome }}
-        <h1 class="logo"><a href="{{ "" | absURL }}">{{ .Site.Title }}</a></h1>
+        <div class="logo"><a href="{{ "" | absURL }}">{{ .Site.Title }}</a></div>
         {{ else }}
         <p class="logo"><a href="{{ "" | absURL }}">{{ .Site.Title }}</a></p>
         {{ end }}
