@@ -334,3 +334,12 @@ max-width: 100%;
     border: 1px solid rgba(0,0,0,.035);
     border-radius: 5px;
 }
+
+article.article img{
+    height: auto;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 800px;
+}
