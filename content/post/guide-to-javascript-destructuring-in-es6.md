@@ -1,7 +1,7 @@
 +++
 categories = ["Javascript"]
 date = 2019-12-14T16:00:00Z
-description = "The JavaScript destructuring assignment is a more readable compact and expressive syntax that allows us to destructured values from arrays or properties from objects"
+description = " Let's see a simple example of JavaScript destructuring."
 featuredimage = "https://res.cloudinary.com/diqqalzsx/image/upload/v1576400964/content/settlecode/javascript_xs0wig.png"
 slug = ""
 tags = ["ES6"]
