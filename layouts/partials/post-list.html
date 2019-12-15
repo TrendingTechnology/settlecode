@@ -5,7 +5,7 @@
         </a>{{ end }}
        <div class="post-card-content">
             <h2 class="post-list-article-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-           {{ with .Params.categories }}Category:{{ range . }}
+           {{ with .Params.categories }}{{ range . }}
             <a href="/categories/{{ . | urlize}}/">{{ . }}</a>{{ end }} | {{ end }}<time>{{ .Date.Format "2006-01-02 15:04:05" }}</time>
            
             <div class="post-content">
