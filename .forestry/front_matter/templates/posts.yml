@@ -30,3 +30,4 @@ fields:
 pages:
 - content/post/guide-to-javascript-destructuring-in-es6.md
 - content/post/how-to-automatically-clear-cloudflare-cache-after-deploying-a-netlify-site.md
+- content/post/resetting-the-administrator-password-on-a-windows-2012-r2-vm.md
