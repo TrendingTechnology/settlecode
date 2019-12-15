@@ -325,35 +325,6 @@ body {
     padding: var(--gap);
 }
 
-header {
-	padding: 16px;
-	background: #AAA;
-}
-
-.head-nav {
-	padding: 4px 16px;
-	background: #DDD;
-	border-bottom: 1px solid #AAA
-}
-
-nav ul {
-	list-style-type: none;
-	display: inline;
-	padding: 0
-}
-
-nav li {
-	list-style-type:none;
-	display:inline;
-	margin-right:6px;
-}
-
-nav li+li {
-	padding-left: 10px;
-	border-left: 1px solid rgba(255, 255, 255, 0.5);
-	box-shadow: -1px 0 0 #666;
-}
-
 footer {
 	text-align: center;
 	font-size: 80%;
