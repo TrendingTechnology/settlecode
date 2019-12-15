@@ -1,15 +1,15 @@
-baseurl = "http://tatamo.81.la/blog/"
-languageCode = "ja"
-title = "わたしろぐ"
+baseurl = "https://boring-murdock-dbf5c8.netlify.com/"
+languageCode = "en"
+title = "Settle Code"
 canonifyurls = true
 
 [permalinks]
 post = "/:year/:month/:day/:filename/"
 [params]
 author = "Tatamo"
-subtitle = "私録"
+subtitle = "Settle Code"
 description = "Tatamo's weblog"
 twitter_url = "https://twitter.com/__tatamo__"
 github_url = "https://github.com/tatamo"
-copyright_since = "2015"
-copyright_latest = "2015"
+copyright_since = "2019"
+copyright_latest = "2020"
