@@ -14,7 +14,7 @@ sections:
   label: Post
   create: all
   match: "**/*"
-upload_dir: content/uploads
+upload_dir: content/settlecode
 public_path: https://res.cloudinary.com/diqqalzsx/image/upload
 front_matter_path: ''
 use_front_matter_path: 
