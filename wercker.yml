@@ -1,0 +1,37 @@
+box: debian 
+build:
+  steps:
+    - arjen/hugo-build:
+        version: "0.30"
+deploy:
+  steps:
+    - install-packages:
+        packages: git
+    - leipert/git-push:
+        gh-oauth: $GIT_TOKEN
+        basedir: public
+        repo: $REPO_TO_DEPLOY
+        clean_removed_files: true
+#   - install-packages:
+#       packages: lftp
+#   - script:
+#       name: mirror over lftp
+#       code: |
+#          echo $DEPLOY_FTP_SERVER
+#          mkdir -p $HOME/.lftp
+#          echo "set ssl:verify-certificate no" > $HOME/.lftp/rc
+#          USER=$DEPLOY_FTP_USER
+#          PASS=$DEPLOY_FTP_PASS
+#          HOST=$DEPLOY_FTP_SERVER
+#          lftp -f "open $HOST
+#          user $USER $PASS
+#          pwd
+#          set net:timeout 5
+#          set net:max-retries 3
+#          set net:reconnect-interval-max 60
+#          set ftp:passive-mode off
+#          set ftp:ssl-allow off
+#          mirror --continue --reverse --delete --verbose=3 public /blog
+#          quit
+#          "
+#          lftp -u $USER,$PASS -e "debug;set ftp:passive-mode off;set ftp:ssl-allow off;set net:timeout 5;set net:max-retries 2;set net:reconnect-interval-max 30;ls;mirror --continue --reverse --delete --verbose=3 public /blog;quit" $HOST
