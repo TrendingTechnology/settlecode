@@ -144,7 +144,7 @@ article.post-list-article + nav.pagination {
 
 .post-list-article-title {
 	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 12px;
 	font-size: 1.88em;
     line-height: 1.1;
 }
