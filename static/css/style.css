@@ -2,6 +2,39 @@
 html {
 	overflow-y: scroll;
 }
+:root {
+  --gap: 24px;
+  --header-height: 64px;
+  --footer-height: 60px;
+  --primary: rgba(0, 0, 0, 0.88);
+  --secondary: rgba(0, 0, 0, 0.56);
+  --tertiary: rgba(0, 0, 0, 0.16);
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+button,
+input,
+textarea {
+  padding: 0;
+  font: inherit;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+button,
+input[type='button'],
+input[type='submit'] {
+  cursor: pointer;
+}
+input,
+textarea {
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
 
 a:link { color: #00F; }
 a:visited { color: #00F; }
