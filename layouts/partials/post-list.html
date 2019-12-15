@@ -5,11 +5,9 @@
         </a>{{ end }}
        <div class="post-card-content">
             <h2 class="post-list-article-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-            <span class="post-list-article-datetime"><time>{{ .Date.Format "2006-01-02 15:04:05" }}</time></span>
-            {{ with .Params.categories }}<p class="post-list-article-categories">Category:{{ range . }}
-            <a href="/categories/{{ . | urlize}}/">{{ . }}</a>{{ end }}</p>{{ end }}
-            {{ with .Params.tags }}<p class="post-list-article-tags">Tag:{{ range . }}
-            <a href="/tags/{{ . | urlize}}/">{{ . }}</a>{{ end }}</p>{{ end }}
+           {{ with .Params.categories }}Category:{{ range . }}
+            <a href="/categories/{{ . | urlize}}/">{{ . }}</a>{{ end }} | {{ end }}<time>{{ .Date.Format "2006-01-02 15:04:05" }}</time>
+           
             <div class="post-content">
                 <section class="entry-content">
    <p> {{ with .Description }}
