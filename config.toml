@@ -4,9 +4,9 @@ title = "Settle Code"
 canonifyurls = true
 
 [permalinks]
-post = "/:year/:month/:day/:filename/"
+post = "/:filename"
 [params]
-author = "settlecode"
+author = "settle code"
 subtitle = "Settle Code"
 description = "settle's weblog"
 twitter_url = "https://twitter.com/settlecode"
