@@ -6,9 +6,9 @@ canonifyurls = true
 [permalinks]
 post = "/:filename"
 [params]
-author = "settle code"
+author = "Settle code"
 subtitle = "Settle Code"
-description = "settle's weblog"
+description = "Settle code's Weblog"
 twitter_url = "https://twitter.com/settlecode"
 github_url = "https://github.com/settlecode"
 copyright_since = "2019"
