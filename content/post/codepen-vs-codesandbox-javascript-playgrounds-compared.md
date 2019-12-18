@@ -1,6 +1,6 @@
 +++
 categories = ["JavaScript"]
-date = 2019-12-17T16:00:00Z
+date = 2019-12-17T16:01:00Z
 description = "It's nice to have all this simplicity out-of-the-box, but sometimes you need more."
 featuredimage = "https://res.cloudinary.com/diqqalzsx/image/upload/v1576657113/content/settlecode/JavaScript_ru02av.jpg"
 slug = ""
