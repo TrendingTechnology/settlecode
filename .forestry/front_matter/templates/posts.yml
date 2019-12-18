@@ -28,6 +28,7 @@ fields:
     maxSize: 250
   label: featuredimage
 pages:
+- content/post/codepen-vs-codesandbox-javascript-playgrounds-compared.md
 - content/post/guide-to-javascript-destructuring-in-es6.md
 - content/post/how-to-automatically-clear-cloudflare-cache-after-deploying-a-netlify-site.md
 - content/post/how-to-generate-static-sites-with-javascript-static-sites-generators.md
